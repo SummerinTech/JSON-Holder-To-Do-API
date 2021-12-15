@@ -1,0 +1,31 @@
+body {
+	background-color: palevioletred;
+	color: blanchedalmond;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+.heading-text {
+	font-size: 3rem;
+}
+
+.card-holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	width: 275px;
+	height: 300px;
+	padding: 2%;
+	margin: 1rem;
+	border: 1px solid white;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+}
