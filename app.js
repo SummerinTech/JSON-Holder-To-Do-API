@@ -37,10 +37,12 @@ async function addApi() {
 }
 
 //HTML Structures for card components
+const container = document.querySelector(".cards-container");
 const cardsStructure = document.querySelectorAll(".card");
 const cardTitles = document.querySelectorAll(".title-text");
 const completed = document.querySelectorAll(".completed-text");
 const numberId = document.querySelectorAll(".id");
+const btn = document.querySelector(".btn");
 
 //Made the Structures into an objet
 const cards = {
