@@ -72,4 +72,5 @@ body {
 p.id {
 	text-align: left;
 	padding-left: 2%;
+	margin: 0;
 }
